@@ -1,0 +1,46 @@
+<!--Requirements
+Create the following variables:
+studentName – store the student's name.
+age – store the student's age.
+course – store the course name.
+mark1 – store the mark of the first subject.
+mark2 – store the mark of the second subject.
+mark3 – store the mark of the third subject.
+numberOfSubjects – store the number of subjects.
+Then:
+Calculate the total marks.
+Calculate the average marks.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript-Task1</h1>
+
+    <script>
+        let studentName = "sachin";
+        let age = 23;
+        let course = "Computer Science";
+    
+        console.log(`My name is ${studentName} and i am ${age} years old`);   
+
+        let firstsubjectmark1 = 85;
+        let secondsubjectmark2 = 90;
+        let thirdsubjectmark3 = 95;
+        let numberOfSubjects = 3;
+
+        let totalMarks = firstsubjectmark1 + secondsubjectmark2 + thirdsubjectmark3;
+        let averageMarks = totalMarks / numberOfSubjects;
+        
+        console.log(`course is ${course}`);
+
+        console.log(`Total marks: ${totalMarks}`);
+        console.log(`Average marks: ${averageMarks}`);
+    </script>
+</body>
+</html>
